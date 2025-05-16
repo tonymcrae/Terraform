@@ -13,7 +13,7 @@ provider "proxmox" {
   insecure     = true                                 # Allow self-signed certificates
 }
 
-resource "proxmox_virtual_environment_vm" "TKA-PROX-LX-MC2" {
+resource "proxmox_virtual_environment_vm" "TKA-PROX-LX-MC" {
   # Placeholder configuration for import
   name        = "TKA-PROX-LX-MC"
   node_name   = "tka-prox-pve"
